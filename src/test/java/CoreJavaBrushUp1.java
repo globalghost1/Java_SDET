@@ -44,15 +44,6 @@ public class CoreJavaBrushUp1 {
             System.out.println(s);
         }
 
-        ArrayList a = new ArrayList<String>();
-        a.add("Rahul");
-        a.add("Sheety");
-        a.add("academy");
-        a.add("Selenium");
-        a.remove(2);
-        System.out.print(a.get(3));
-
-
         //create object of the class  - object.method
 
     }
