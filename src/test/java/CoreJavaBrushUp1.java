@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class CoreJavaBrushUp1 {
     public static void main(String[] args) {
 
@@ -37,9 +39,21 @@ public class CoreJavaBrushUp1 {
             System.out.println(name[1]);
         }
 
+        for ( String s: name)
+        {
+            System.out.println(s);
+        }
+
+        ArrayList a = new ArrayList<String>();
+        a.add("Rahul");
+        a.add("Sheety");
+        a.add("academy");
+        a.add("Selenium");
+        a.remove(2);
+        System.out.print(a.get(3));
 
 
-
+        //create object of the class  - object.method
 
     }
 }
