@@ -28,9 +28,12 @@ public class Locators {
         driver.findElement(By.xpath("//form/input[3]")).sendKeys("98643");
         driver.findElement(By.cssSelector(".reset-pwd-btn")).click();
         System.out.println(driver.findElement(By.cssSelector("form p")).getText());
+        driver.findElement(By.xpath("//div[@class='forgot-pwd-btn-container']/button[1]")).click();
         driver.findElement(By.cssSelector("#inputUsername")).sendKeys("rahul");
         driver.findElement(By.cssSelector("input[type*='pass']")).sendKeys("rahulshetyacademy");
-        driver.findElement(By.id("checkBox")).click();
+        driver.findElement(By.id("chkBoxOne")).click();
+        driver.findElement(By.xpath("//button[contains(@class,'submit')]")).click();
+
     }
 
 }
